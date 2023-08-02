@@ -1,0 +1,67 @@
+Selenium WebDriver 
+Selenium:
+   Selenium can automate only webbased Application
+   It is a open source
+   It support multiple browser chrome,edge,opera,firfox and safari
+   It support multiple os window ,mac and linux
+
+Selenium Components:
+Selenium IDE
+Selenium Grid
+Selenium WebDriver 
+Selenium version -4.0
+
+Selenium stable version -4.11.0
+
+Inspect Dom:
+right click --> inspect
+press f12
+press ctrl+ shift+i
+more tools --> developer tools
+
+
+Dom
+Document Object Model
+<html>
+
+<head>  </head>
+<body> </body>
+
+<html>
+
+tags:
+<label>
+<input>
+<div>
+<table>
+<a>
+<select>
+<options>
+<iframe>
+
+Locators:             When to use                          Dont't use
+1.id                  unique                     if id having number 
+2.name                unique                     multiple matches                         
+3.className      without white space inbetween      
+4.linkText           <a>
+5.partialLinkText    <a>
+6.tagName            unique
+7.cssSelector
+8.xPath
+
+
+class="createlead"
+<a>
+
+id="ext-gen868"  ---10046
+id="ext-gen867"
+ext-gen869
+
+findElement() :
+findElement()--> return type WebElement
+findElement()-- to find an element in dom
+
+selectByValue()  -- best practise: Multi-lingual project
+selectByVisibleText()--best practise:plane english project
+selectByindex() --best practise:random select
+index starting from 0
