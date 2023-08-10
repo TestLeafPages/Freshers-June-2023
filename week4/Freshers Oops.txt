@@ -1,0 +1,148 @@
+OOPs --Object Oriented Programming Language
+1.Abstraction
+     Interface
+     Abstract Class
+2.Inheritance
+3.Polymorphism
+4.Encapsulation
+
+1.Abstraction
+ Hiding the internal details and showing the essential to the user.
+ In this  Abstraction we can achieve by two ways
+     1.Interface
+     2.Abstract Class
+ 
+1.Interface:
+  1.It is a Design, End with semicolon ;
+  2.Interface having Unimplement Method
+  3, We can use public and default access modifiers
+  4, we can not create object for an Interface
+selenium:
+WebDriver,SearchContext, WebElement
+java:
+ List, Set, Map
+
+Abstract Class:
+1.The abstract keyword is a non-access modifier, used for classes and methods
+2.Abstract class is a restricted class that cannot be used to create objects (to access it, it must be inherited from another class).
+3.Abstract method can only be used in an abstract class
+4.It does not have a body. 
+5.The body is provided by the subclass which means Inherited class.
+
+selenium:
+By
+Java:
+AbstractCollection,AbstractList
+
+2.Inheritance:
+Inheriting variables and methods from super to sub class, with the help of extends keyword
+
+parent class---> super class
+child class ---> sub clas
+
+parent class---> base class
+child class ---> derived clas
+
+types of Inheritance:
+Single Inheritance
+Multiple Inheritance
+Mutilevel Inheritance
+
+
+Single Inheritance:
+    parent ----> child
+
+Example from Selenium:
+ ChromeDriver extends ChromiumDriver
+Example from java:
+NoSuchElementException extends RuntimeException 
+ArrayList extends AbstractList
+
+Mutilevel Inheritance:
+ GrandParent ----> parent ----> child
+Example from Selenium:
+ ChromeDriver extends ChromiumDriver
+ ChromiumDriver extends RemoteWebDriver
+Example from java:
+NoSuchElementException extends RuntimeException
+RuntimeException extends Exception 
+ArrayList extends AbstractList
+AbstractList extends AbstractCollection
+
+Multiple Inheritance:
+Example from Selenium:
+
+Example from java:
+
+
+
+Multiple Inheritance
+            class A
+
+
+     Class B          Class c
+
+
+PolyMorphism:
+Poly ---> many
+Morphism --> multiple form of Implementations
+ 1.Method OverLoading
+ 2.MethodOverriding
+
+Method OverLoading/Static Binding/ CompileTime Polymorphism
+
+Same class and Same method , But the aruguments should be different
+Example from java:
+System.out.println();--println();
+
+Example from java:
+driver.switchTo.frame(int index);
+driver.switchTo.frame(String nameOrId);
+driver.switchTo.frame(WebElement element);
+
+Method Overriding/Dynamic Binding/RunTime Polymorphism
+Different class with same method name but the class should be inherited
+
+java:
+.equals()
+ selenium:
+quit();
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3.Polymorphism
