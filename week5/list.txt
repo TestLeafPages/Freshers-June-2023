@@ -1,0 +1,76 @@
+Collections 
+  collections is a group of individual object
+
+Collections ---> class
+Collection ---> Interface
+
+              Collection 
+              1.List
+              2.Set
+              3.Map
+
+
+List Properties:
+ 1,It's allow duplicate
+ 2. Maintain the insertion order
+
+Implemetation Class:
+ 1.ArrayList
+ 2.LinkedList
+How to declare List?
+List<> obj=new ArrayList<> ();
+
+List-->Interface
+<> -- generic
+obj--- ObjectName
+new --keyword
+ArrayList --->Implementation Class
+
+Wrapper class:
+int     ---Integer
+float   -- Float
+long     --Long
+double  -- Double
+byte   -- Byte
+short  -- Short
+char    -- Character
+boolean -- Boolean
+
+List Method:
+ add() --> to add an element in list
+ size() --> to get the count from list
+ get() --> To get particular element in list
+ contains() -- to check if the element is existing or not
+ clear() -- to delete all element from list
+isEmpty() -- to check the given list empty or not
+
+
+
+int[] num={10,2,3,4,9,5,6,7};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
