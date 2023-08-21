@@ -1,0 +1,109 @@
+Java
+1.Explain oops concept with example
+2.What is class?
+3.What is an Object?
+4.Explain main method?
+5.What are the data types available in java?
+6.Explain access modifiers?c    
+7.What is an Array? How will you declare an Array? 
+8.What is String? How will you declare  
+9.When will you get Array IndexOutOfBoundsException?
+10.Write any five method from String?
+11.Verify the given String is palindrom or not
+ String text="malayalam";
+12.Reverse a String 
+   i.e declare a String as your name
+13.Print 1 to 20 odd Number
+14.Find missing element in given Array
+   int[] num={1,5,2,8,4,3,6};
+    missing element is - 7
+15.Print unique number using Set 
+   int[] number={1,2,4,7,1,8,9,2,4};
+   output:1,2,4,7,8,9
+16.Print Duplicate Number using set
+  int[] number={1,2,4,7,1,8,9,2,4};
+  output:1,2,4
+17.Print 5th factorial
+18.Swapping between two number
+   int a=10;
+   int b=20;
+19.To get the count of words
+   String text="Amazon has working 20,000    people in India";
+ count=7
+20.Print e Charcater occurance
+  String text="Testleaf";
+   output:e-2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Target Locator:
+1.Alert
+2.Frame
+3.WindowHandling
+
+TargetLocator---- Interface
+TargetLocator --> implementation class --->RemoteTargetLocator
+
+Alert: 
+Alert is a small message box, it provide some kind of information to the user.
+
+Alert build by java script
+
+Alert types:
+1.Model Dialogue
+2.Non-Model Dialogue
+
+Model Dialogue:
+we can not inspect an Alert.
+until handle the alert we can not interact with any element in ui.
+
+1.Model Dialogue;
+1.Simple Alert
+2.Confirmation  Alert
+3.Prompt Alert
+
+switchTo--- return type TargetLocator
+Alert--- Interface
+Alert ---> Implementation class --->RemoteAlert
+AlertMethods:
+accept()--- accept the alert
+dismiss() --to cancel the alert
+getText() --To retrieve the typed text
+sendKeys()--- to pass the values
+
+
+Exceptions:
+1.UnHandledAlertException
+2.NoAlertPresentException
+
+
+
+
+
+
+
+
+
+
+
+
+
