@@ -1,0 +1,43 @@
+<html>
+<head> </head>
+<body> </body>
+            <html>
+            <head> </head>
+            <body> </body>
+
+            </html>
+</html>
+
+how to switch controll to frame:
+driver.switchTo().frame(int index);
+driver.switchTo().frame(String nameOrId);
+driver.switchTo().frame(WebElement element);
+
+
+Axis Xpath/ Relative Xpath
+1.Parent to child xpath
+ parent xpath/ child xpath or tagName
+//p[@class='top']/input[@id='username']
+
+e.g(//div[@class='x-grid3-cell-inner x-grid3-col-partyId']/a)[1]
+
+2.Child to parent
+child xpath /parent::tagName of parent tag
+//input[@id='username']/parent::p
+or
+//input[@id='username']/..
+
+
+3.GrandParent to GrandChild
+Grandparent xpath//grandchild xpath
+//form[@id='login']//label[text()='Username']
+
+4.GrandChild to GrandParent
+grandChild xpath/ancestor:: tagName of grandparent
+
+//label[text()='Username']/ancestor::form
+//label[text()='Username']/../..
+
+
+
+
